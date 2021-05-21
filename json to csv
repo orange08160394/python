@@ -30,7 +30,7 @@ canvasl.create_window(150, 60, window=labell)
 browseButton_JSON = tk.Button(text="        Import JSON File ", command=getJSON, bg='green', fg='white', font=('helvetica',12,'bold'))
 canvasl.create_window(150, 130, window=browseButton_JSON)
 
-saveAsButton_CSV = tk.Button(text='Convert DSON to CSV', command=convertToCSV, bg='green', fg='white', font=('helvetica', 12, 'bold'))
+saveAsButton_CSV = tk.Button(text='Convert JSON to CSV', command=convertToCSV, bg='green', fg='white', font=('helvetica', 12, 'bold'))
 canvasl.create_window(150, 180, window=saveAsButton_CSV)
 
 exitButton = tk.Button (root, text='    Exit Application     ',command=exitApplication, bg='brown', fg='white',font=('helvetica',12, 'bold'))
