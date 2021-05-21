@@ -5,12 +5,12 @@ import pandas as pd
 
 def getJSON ():
     global read_file
-    import__file_path = filedialog. askopenfilename ()
+    import_file_path = filedialog.askopenfilename()
     read_file = pd.read_json (import_file_path)
 
 def convertToCSV ():
     global read_file
-    exporth = filedialog.asksaveasfilename(defaultextension='.csv')
+    export_file_path = filedialog.asksaveasfilename(defaultextension='.csv')
     read_file.to_csv (export_file_path, index = None, header=True)
 
 def exitApplication():
